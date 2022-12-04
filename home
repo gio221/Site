@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Link para CSS do Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	 crossorigin="anonymous">
+
+	<link rel="stylesheet" href="styleCabelho.css">
+
+	<link rel="shortcut icon" href="imagens/icon/logoIconBranca.png" type="image/x-icon">
+	<title>IF Help</title>
+	<style>
+		body {
+			background-image: url(imagens/fundo/fundo2.png);
+			background-attachment: fixed;
+			background-size: 100%;
+			background-repeat: no-repeat;
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<!--cabeça-->
+
+
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="imagens/logos/logo.png" width="123px" heigh="120px" alt="logo"></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="links"  class="nav-link active" aria-current="page" href="pagHome.html">Ínicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="links" class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a  class="links" class="nav-link" href="tutoriais.html">Tutoriais</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="links" class="nav-link" href="contate.html">Contate-nos</a>
+          
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+      <img style="padding-left:15px "src="imagens/fotoPerfil.png" width="60px" heigh="60px" alt="logo">
+    
+      
+      <!--dropdown-->
+  <div style="padding-left:10px;"class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Configurações
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="menu">
+    <li><a class="dropdown-item" href="#">Alterar Senha</a></li>
+    <li><a class="dropdown-item" href="#">Alterar E-mail</a></li>
+    <li><a class="dropdown-item" href="index.html">Sair</a></li>
+  </ul>
+</div>
+ <!--Botão Alterar Idiomas-->
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false" >
+            <img src="imagens/portugues.png" width="40" alt="">
+          </button>
+          <ul style="background-color:;"class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button" ><a href="../en/index.html"><img
+                    src="imagens/ingles.png" width="40px" alt=""></a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="../es/index.html"><img src="imagens/espanhol.png" width="40px"
+                    alt="espanhol">espanhol</a></button></li>
+          </ul>
+        </div>
+      <!--dropdown-->
+    </div>
+  </div>
+</nav>
+
+<!--caveça-->
+
+<div id="container">
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card" style="margin-left:7%;">
+      <div class="card-body">
+
+
+<div class="dropdown">
+  
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenu3" data-bs-toggle="dropdown" aria-expanded="false" >
+            <img src="..." width="0" alt="">
+          </button>
+          <ul style="background-color:;"class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button"><a href="../es/index.html"><img src="imagens/dias/segunda.gif" width="90px"
+                    alt="Segunda"> Segunda</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="../es/index.html"><img src="imagens/dias/terca.gif" width="90px"
+                    alt="Terça"> Terça</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="../es/index.html"><img src="imagens/dias/quarta.gif" width="90px"
+                    alt="Quarta"> Quarta</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="../es/index.html"><img src="imagens/dias/quinta.gif" width="90px"
+                    alt="Quinta"> Quinta</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="../es/index.html"><img src="imagens/dias/sexta.gif" width="90px"
+                    alt="Sexta"> Sexta</a></button></li>
+          </ul>
+        </div> 
+<p>Atendimentos - Ter </p>
+ 
+        <label><center>Data <input type="date" style="margin-left:5%;"></center> <br> </label>  
+
+        <label for="appt"> 
+<center>Hora <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:5%;"></center> <!--colocar em vermelho-->
+
+<small></small> <br> </label>
+
+       
+
+      <div class="list-group">
+         
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" checked>
+
+
+    História
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">História</a>
+    
+    
+    
+    
+    
+    
+    <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:31%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value=""checked>
+   Artes
+   <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+   
+    <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:44%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value=""checked>
+    Física
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+    
+     <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:43%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value=""checked>
+    
+    Inglês
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+    
+     <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:43%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value=""checked>
+    
+     Espanhol
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+    
+     <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:35.8%;">
+  </label>
+
+
+    <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" checked>
+    
+    
+     Português
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+    
+     <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:33.8%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value=""checked>
+    
+    
+     Geografia
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+    
+     <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:34%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+   
+
+     Web Design
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+   
+    <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:29%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    
+    
+     Filosofia
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+    
+     <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:37%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    
+    
+     LPOOW
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+    
+     <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:38%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    
+    
+     Química
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+    
+     <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:36%;">
+  </label>
+<label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    
+    
+     Sociologia
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+    
+     <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:32%;">
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+   
+   
+     Qualidade de Software
+    <a href="https://meet.google.com/iuz-xeik-qvt" target="_blank" rel="external">Link</a>
+   
+   <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required style="margin-left:5%;">
+  </label>
+
+</div>
+
+<!--relogio-->
+      </div>
+      
+
+
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card" style="border: none;>
+      <div class="card-body">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FSao_Paulo&showTitle=0&showNav=1&showPrint=0&showTabs=1&showCalendars=1&src=dGVyY2Vpcm9lbWlhMjAyMUBnbWFpbC5jb20&src=NzFxYm0ydXNydGlwYjhydWo4dGtnNHMyOWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MnVsMWY3OWYyYzdxMTNtOWtsaW5xZjdoMTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Mmo5YWVhN3BjbW80c21iNjJwaXEwMDE1aW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGM2dDNrMGJjZzBhbmVrdDRzMHZtYWszbWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=NzI5bzhhMnZ2aDZoaTQ5bmlzaXBxcHBnZmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZTFrN2hzN3FybzlqbGU3NjVuM245YzNrZ2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZGx1YnQ4MWcxMTI2Mms3YWtoZTBodWZvZDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MWZpNDFqZm9oaXZsb2h1MzRtNnRqNTBmc2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZjVqbzY1NjdhMGlwaWVobnJydnFzajFkc3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OHJiMjNhMjhqMzJmZHJtcmVsZTZwOWwzMWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGsycTd2cW45OGdoaW5uanNiNHRtYWkxbTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=a2Q5dDM5ZDE2bDltcjAxc2tkczlxZjhhNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bXRiZm02OWc4MWRwbnZuM2tmM3VsNTNlZTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MGdxM2c4Z2MzOTU1NDI3cTRjdW9kZm1odDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aHZvOWtxY2MzdDQ0bHVxcjB1MnNka2gzZG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bGFiZGgxbWEzc2c4ZXFib3Y5b2kyc2U0cmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c252aWNmNGFvODE3cXFhaHI3cmFvaHNiazBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=NzE1Y24xMmJkYjlqcmQ2bjhmcWFuNHM3ajhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23039BE5&color=%23E67C73&color=%230B8043&color=%23C0CA33&color=%233F51B5&color=%23F6BF26&color=%238E24AA&color=%23F4511E&color=%230B8043&color=%23F09300&color=%23F6BF26&color=%23F09300&color=%23D50000&color=%234285F4&color=%23F6BF26&color=%239E69AF&color=%23F09300&color=%23E67C73&color=%237986CB" style="border:solid 1px #777" width="890" height="700" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+</div>   <br><br>
+<!--div do relógio-->
+<div id="relogio">
+
+</div>
+<div id="filtros">
+
+ 
+<div>
+  <center>  <table>
+        <tr>
+        <td>
+            <div style="padding-left:10px;"class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    3º A
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="menu">
+    <li><a class="dropdown-item" href="#">1º A</a></li>
+    <li><a class="dropdown-item" href="#">1º B</a></li>
+    <li><a class="dropdown-item" href="#">1º C</a></li>
+    <li><a class="dropdown-item" href="#">2º A</a></li>
+    <li><a class="dropdown-item" href="#">2º B</a></li>
+    <li><a class="dropdown-item" href="#">2º C</a></li>
+    <li><a class="dropdown-item" href="#">3º A</a></li>
+    <li><a class="dropdown-item" href="#">3º B</a></li>
+  </ul</center>
+
+
+</div> 
+        </td>
+        <td>
+            <div style="padding-left:10px;"class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Semanal
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="menu">
+    <li><a class="dropdown-item" href="#">Semanal</a></li>
+    <li><a class="dropdown-item" href="#">Para Hoje</a></li>
+    <li><a class="dropdown-item" href="#">Por Matéria</a></li>
+    <li><a class="dropdown-item" href="#">Todos Os Avisos</a></li>
+    
+  </ul</center>
+
+   <!--SOCORRO! não sei como cheguei aqui-->
+
+</div> 
+        </td>       
+        </tr>
+    </table></center>
+</div>
+
+<div id="secao-materias">
+  <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       <h4>Lingua Portuguesa </h4>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong> Atividade número 15.</strong> Após ter lido o capítulo 7 do seu livro de língua portuguesa, <code>pesquise</code> sobre a terceira fase do modernismo e realize as atividade 3,4 e 5 da página 263.<br/>
+        <div style="margin-left: 80%;">
+          <input  type="date" name="" id=""> <!--data não fixa-->
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       <h4> Web Design</h4>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Atividade de revisão:</strong> Crie uma página em HTML que apresente as seguintes informações/FORMATAÇÕES: <br>
+
+1. INSTITUTO FEDERAL DE BRASÍLIA; <br>
+2. COR DE FUNDO VERDE; <br>
+3. FORMATE O TEXTO COM ESTILO INCORPORADO; <br>
+4. ENVIE SEU ARQUIVO PARA A SALA VIRTUAL. <br>
+ Em caso de dúvidas entre em contato pelo e-mail <code>professora@ifb.edu.br</code>, para tentar solucionar o problema
+        <div style="margin-left: 80%;">
+          <input  type="date" name="" id="">
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <h4>Matemática</h4>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Atividade 30 - Avaliação (0,5 ponto)
+</strong> Calcule a área do círculo limitado pela circunferência <code>λ:x2+y2+2x−7=0</code>. Mostre o passo a passo de como chegou ao resultado. Consulte o capítulo 5 do livro didático.
+        <div style="margin-left: 80%;">
+          <input  type="date" name="" id="">
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <h4>Geografia</h4>
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>4ª semana - 03/01 a 08/01/2022.</strong> Nesta semana finalizamos o estudo do Capítulo 07 - A África no contexto da geopolítica mundial, portanto peço que façam a leitura completa do capítulo, assim como do material de apoio postado aqui na plataforma.  Fiquem atentos e não deixem de realizar as atividades da semana (Fórum) para registrar suas presenças (Os exercícios desta semana valerão presença para as semana 3 e 4) . Boa semana e bons estudos! <br>
+        <ul>
+<li> <a href="https://docs.google.com/presentation/d/0B4SD7-R7_drITmZ5WU9ibFE5dzg/edit?usp=sharing&ouid=103886112770162031278&resourcekey=0-oswBHtjNjylLUrAytrpB_w&rtpof=true&sd=true" target="_blank" rel="external">Material de apoio</a> </li> 
+<li> <a href="https://drive.google.com/file/d/1KfzMGMHElCRTEbDwiljSI08wLyZQ9u2L/view?usp=sharing" target="_blank" rel="external">Link da gravação do atendimento síncrono</a> </li> 
+ Fórum <code>Os impactos da geopolítica mundial no continente africano</code>. 
+</ul>
+        <div style="margin-left: 80%;">
+          <input  type="date" name="" id="">
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+
+  
+</div>
+</div>
+
+<footer class="footerLogin">
+<!-- começo -->
+<center>
+<a href="https://twitter.com/IFBnoticias?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="external"><img src="imagens/redesSociais/twitterBranco.png" width="80px" alt="Twitter"></a>
+
+ <a href="https://www.instagram.com/ifbrasilia/" target="_blank" rel="external"><img src="imagens/redesSociais/instagramBranco.png" width="80px alt="Instagram"></a>
+
+ <a href="https://www.facebook.com/IFBrasilia/" target="_blank" rel="external"><img src="imagens/redesSociais/facebookBranco.png" width="80px alt="Facebook"></a>
+
+<a href="https://www.youtube.com/c/TVIFBrasilia" target="_blank" rel="external"><img src="imagens/redesSociais/youtubeBranco.png" width="80px alt="YouTube"></a>
+
+   <p>Copyrigth &copy;  2022 - IF Help</p>
+</center>
+</footer>
+
+  <!-- Link para biblioteca do Bootstrap via CDN (servidor remoto)-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
