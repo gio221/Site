@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Link para CSS do Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="styleCabelho.css">
+<link rel="shortcut icon" href="imagens/icon/logoIconBranca.png" type="image/x-icon">
+    <title>IF Help</title>
+    <style>
+    body{
+      background-image: url(imagens/fundo/fundo2.png);
+      background-attachment:fixed;
+      background-size:100%;
+      background-repeat:no-repeat;
+      
+    }
+    </style>
+</head>
+<body>
+
+<!--cabeça-->
+<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="imagens/logos/logo.png" width="123px" heigh="120px" alt="logoVerde"></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="links"  class="nav-link active" aria-current="page" href="pagHome.html">Start</a>
+        </li>
+        <li class="nav-item">
+          <a class="links" class="nav-link" href="sobre.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a  class="links" class="nav-link" href="tutoriais.html">Tutorials</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="links" class="nav-link"  href="contate.html">contact us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">To look for</button>
+      </form>
+      <img style="padding-left:15px "src="imagens/fotoPerfil.png" width="60px" heigh="60px" alt="logo">
+    
+      
+      <!--dropdown-->
+  <div style="padding-left:10px;"class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    settings
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="menu">
+    <li><a class="dropdown-item" href="#">Change Password</a></li>
+    <li><a class="dropdown-item" href="#">Change e-mail</a></li>
+    <li><a class="dropdown-item" href="index.html">To go out</a></li>
+  </ul>
+</div>
+      <!--dropdown-->
+      <!--Botão Alterar Idiomas-->
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false" >
+            <img src="imagens/portugues.png" width="40" alt="">
+          </button>
+          <ul style="background-color:;"class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button" ><a href="../en/index.html"><img
+                    src="imagens/ingles.png" width="40px" alt=""></a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="../es/index.html"><img src="imagens/espanhol.png" width="40px"
+                    alt=""></a></button></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+</nav>
+<!--linha vertical-->
+<div id="linha-vertical">
+<p><center>Technical Course in Computer Science Integrated into High School</center></p> <br>
+
+</div>
+<!--texto (margin, formatar o texto)-->
+<article>
+<strong> <p>
+Hello, we are IF Help and our proposal aims to help students and teachers.
+It is common in this remote teaching to accumulate tasks, such as sending activities, participating in attendance and lectures, and for teachers, correcting or adding new activities.
+
+With that, we at IF Help, decided to create a website for updates and information,
+
+We will be making available the view of the calendar of activities and opening hours.
+
+The group hopes that with the use of the site the students will have a better performance,
+
+A better organization in the sending of activities and in the participation of the attendances.
+We also hope that with this help teachers can have less delay in adding activities and better communication with students.
+
+Our visual identity was based on the IFB logo and we also used google calendar, an easy to view tasks and reminders platform.
+
+Our logo was based on the IF logo and refers to a common calendar, where the squares represent the days of the week, with a red check mark that replaces the original circle; ) </p>
+
+watch pitch</strong>
+
+
+
+
+
+
+
+
+
+
+</p>
+</article>
+<!--equipe 1-->
+<font> 
+<h1>Team</h1>
+</font>
+
+<div class="equipe">
+ <div style="margin-left:5%; margin-right:5%;" class="row">
+
+  <div class="col-sm-4">
+
+  <div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="imagens/fotoPerfil/amanda.jpeg" width="190px" height="248px" alt="Amanda">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Amanda</h5>
+        <p class="card-text">I'm 17 years old and after a lot of stress I'm attending the last year of integrated high school       </p><br>
+             <a href="https://www.linkedin.com/in/kaio-costa-066aab1a4/" target="_blank" rel="external"><img src="imagens/redesSociais/linkedin.png" width="25px" alt="linkedin"></a>
+
+        <a href="https://www.instagram.com/_kaio_kaio_/" target="_blank" rel="external"><img src="imagens/redesSociais/instagram.png" width="25px" alt="instagram"></a>
+
+      <a href="https://twitter.com/Ka1oKa1o" target="_blank" rel="external"><img src="imagens/redesSociais/twitter.png" width="25px" alt="twitter"></a>
+
+      <a href="https://github.com/KaioCostaMarquesTorres" target="_blank" rel="external"><img src="imagens/redesSociais/github.png" width="25px" alt="github"></a>
+
+      <a href="<kaiocostamarquestorres@gmail.com>" target="_blank" rel="external"><img src="imagens/redesSociais/gmail.png" width="25px" alt="gmail"></a>
+
+      
+        
+         
+     
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-4">
+<div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="imagens/fotoPerfil/anna.jpg" width="190px" height="248px"  alt="Anna">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Anna</h5>
+        <p class="card-text">Course the third year of high school integrated with the IT technical course. </p><br><br>
+            <a href="https://www.linkedin.com/in/kaio-costa-066aab1a4/" target="_blank" rel="external"><img src="imagens/redesSociais/linkedin.png" width="25px" alt="linkedin"></a>
+
+        <a href="https://www.instagram.com/_kaio_kaio_/" target="_blank" rel="external"><img src="imagens/redesSociais/instagram.png" width="25px" alt="instagram"></a>
+
+      <a href="https://twitter.com/Ka1oKa1o" target="_blank" rel="external"><img src="imagens/redesSociais/twitter.png" width="25px" alt="twitter"></a>
+
+      <a href="https://github.com/KaioCostaMarquesTorres" target="_blank" rel="external"><img src="imagens/redesSociais/github.png" width="25px" alt="github"></a>
+
+      <a href="<kaiocostamarquestorres@gmail.com>" target="_blank" rel="external"><img src="imagens/redesSociais/gmail.png" width="25px" alt="gmail"></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-4">
+<div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="imagens/fotoPerfil/eduarda.jpeg" width="190px" height="248px" alt="Eduarda">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Eduarda</h5>
+        <p class="card-text">Hi, I'm duda, I'm 18 years old, I study at IFB my hobby in my spare time is watching movies and listening to music.</p><br>
+            <a href="https://www.linkedin.com/in/kaio-costa-066aab1a4/" target="_blank" rel="external"><img src="imagens/redesSociais/linkedin.png" width="25px" alt="linkedin"></a>
+
+        <a href="https://www.instagram.com/_kaio_kaio_/" target="_blank" rel="external"><img src="imagens/redesSociais/instagram.png" width="25px" alt="instagram"></a>
+
+      <a href="https://twitter.com/Ka1oKa1o" target="_blank" rel="external"><img src="imagens/redesSociais/twitter.png" width="25px" alt="twitter"></a>
+
+      <a href="https://github.com/KaioCostaMarquesTorres" target="_blank" rel="external"><img src="imagens/redesSociais/github.png" width="25px" alt="github"></a>
+
+      <a href="<kaiocostamarquestorres@gmail.com>" target="_blank" rel="external"><img src="imagens/redesSociais/gmail.png" width="25px" alt="gmail"></a>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!--equipe 2-->
+<div class="equipe">
+ <div style="margin-left:5%; margin-right:5%;" class="row">
+
+  <div class="col-sm-4">
+
+  <div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="imagens/fotoPerfil/giovana.jpeg" width="190px" height="248px" alt="Giovana">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Giovana</h5>
+        <p class="card-text">My name is Giovana Barbosa, I'm 17 years old, computer course.</p> <br>
+              <a href="https://www.linkedin.com/in/kaio-costa-066aab1a4/" target="_blank" rel="external"><img src="imagens/redesSociais/linkedin.png" width="25px" alt="linkedin"></a>
+
+        <a href="https://www.instagram.com/_kaio_kaio_/" target="_blank" rel="external"><img src="imagens/redesSociais/instagram.png" width="25px" alt="instagram"></a>
+
+      <a href="https://twitter.com/Ka1oKa1o" target="_blank" rel="external"><img src="imagens/redesSociais/twitter.png" width="25px" alt="twitter"></a>
+
+      <a href="https://github.com/KaioCostaMarquesTorres" target="_blank" rel="external"><img src="imagens/redesSociais/github.png" width="25px" alt="github"></a>
+
+      <a href="<kaiocostamarquestorres@gmail.com>" target="_blank" rel="external"><img src="imagens/redesSociais/gmail.png" width="25px" alt="gmail"></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-4">
+<div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="imagens/fotoPerfil/isabelle.jpeg" width="190px" height="248px" alt="Isabelle">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Isabelle</h5>
+        <p class="card-text">I'm 17 years old in my last year in the area of Informatics, I really like the area, I'm extremely.</p>
+              <a href="https://www.linkedin.com/in/kaio-costa-066aab1a4/" target="_blank" rel="external"><img src="imagens/redesSociais/linkedin.png" width="25px" alt="linkedin"></a>
+
+        <a href="https://www.instagram.com/_kaio_kaio_/" target="_blank" rel="external"><img src="imagens/redesSociais/instagram.png" width="25px" alt="instagram"></a>
+
+      <a href="https://twitter.com/Ka1oKa1o" target="_blank" rel="external"><img src="imagens/redesSociais/twitter.png" width="25px" alt="twitter"></a>
+
+      <a href="https://github.com/KaioCostaMarquesTorres" target="_blank" rel="external"><img src="imagens/redesSociais/github.png" width="25px" alt="github"></a>
+
+      <a href="<kaiocostamarquestorres@gmail.com>" target="_blank" rel="external"><img src="imagens/redesSociais/gmail.png" width="25px" alt="gmail"></a>
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-4">
+<div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="imagens/fotoPerfil/kaio.jpeg" width="190px" height="248px" alt="Kaio">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Kaio</h5>
+        <p class="card-text">I am in my last year of the Technician course in Computer Science Integrated to High School.</p> <br>
+            <a href="https://www.linkedin.com/in/kaio-costa-066aab1a4/" target="_blank" rel="external"><img src="imagens/redesSociais/linkedin.png" width="25px" alt="linkedin"></a>
+
+        <a href="https://www.instagram.com/_kaio_kaio_/" target="_blank" rel="external"><img src="imagens/redesSociais/instagram.png" width="25px" alt="instagram"></a>
+
+      <a href="https://twitter.com/Ka1oKa1o" target="_blank" rel="external"><img src="imagens/redesSociais/twitter.png" width="25px" alt="twitter"></a>
+
+      <a href="https://github.com/KaioCostaMarquesTorres" target="_blank" rel="external"><img src="imagens/redesSociais/github.png" width="25px" alt="github"></a>
+
+      <a href="<kaiocostamarquestorres@gmail.com>" target="_blank" rel="external"><img src="imagens/redesSociais/gmail.png" width="25px" alt="gmail"></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!--<p>voltar para a página de <a href="../index.html">login</a></p>
+<p>voltar para a página <a href="../pagHome.html">inicial</a></p>-->
+
+<footer class="footerLogin">
+<!-- começo -->
+<center>
+<a href="https://twitter.com/IFBnoticias?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="external"><img src="imagens/redesSociais/twitterBranco.png" width="80px" alt="Twitter"></a>
+
+ <a href="https://www.instagram.com/ifbrasilia/" target="_blank" rel="external"><img src="imagens/redesSociais/instagramBranco.png" width="80px alt="Instagram"></a>
+
+ <a href="https://www.facebook.com/IFBrasilia/" target="_blank" rel="external"><img src="imagens/redesSociais/facebookBranco.png" width="80px alt="Facebook"></a>
+
+<a href="https://www.youtube.com/c/TVIFBrasilia" target="_blank" rel="external"><img src="imagens/redesSociais/youtubeBranco.png" width="80px alt="YouTube"></a>
+
+   <p>Copyrigth &copy;  2022 - IF Help</p>
+</center>
+</footer>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
