@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Link para CSS do Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	 crossorigin="anonymous">
+
+	<link rel="stylesheet" href="styleCabelho.css">
+  <link rel="stylesheet" href="contate.css">
+
+
+	<link rel="shortcut icon" href="imagens/icon/logoIconBranca.png" type="image/x-icon">
+	<title>IF Help</title>
+    <style>
+    body{
+      background-image: url(imagens/fundo/fundo2.png);
+      background-attachment:fixed;
+      background-size:100%;
+      background-repeat:no-repeat;
+      
+    }
+    </style>
+</head>
+
+<body>
+
+	<!--cabeça-->
+
+
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="imagens/logos/logo.png" width="123px" heigh="120px" alt="logoVerde"></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="links"  class="nav-link active" aria-current="page" href="pagHome.html">Ínicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="links" class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a  class="links" class="nav-link" href="tutoriais.html">Tutoriais</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="links" class="nav-link" href="contate.html">Contate-nos</a>
+          
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+      <img style="padding-left:15px "src="imagens/fotoPerfil.png" width="60px" heigh="60px" alt="logo">
+    
+      
+      <!--dropdown-->
+  <div style="padding-left:10px;"class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Configurações
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="menu">
+    <li><a class="dropdown-item" href="#">Alterar Senha</a></li>
+    <li><a class="dropdown-item" href="#">Alterar E-mail</a></li>
+    <li><a class="dropdown-item" href="index.html">Sair</a></li>
+  </ul>
+</div>
+   <!--Botão Alterar Idiomas-->
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false" >
+            <img src="imagens/portugues.png" width="40" alt="">
+          </button>
+          <ul style="background-color:;"class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button" ><a href="../en/index.html"><img
+                    src="imagens/ingles.png" width="40px" alt=""></a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="../es/index.html"><img src="imagens/espanhol.png" width="40px"
+                    alt=""></a></button></li>
+          </ul>
+        </div>
+      <!--dropdown-->
+    </div>
+  </div>
+</nav>
+
+<!--implementar pagina-->
+
+
+  <div class="card-coment" style=background-color:#ddf2f5>
+    <center><img src= "imagens/icon/check.png" width="80px alt= "confirmado" ></center>
+    <h1 >Mensagem Enviada Com Sucesso! </h1>
+</div>
+
+    <div class="row">
+    <div class="col-sm-3">
+      <!--Link para página correspondente-->
+      <a href="contate.html">
+      <div class="card">
+        <div class="card-body" style="background-color:;">
+          <h5 class="card-title">Nova Mensagem</h5>
+        </div>
+      </div>
+    </a>
+    </div>
+
+
+    <div class="col-sm-3">
+      <!--Link para página correspondente-->
+      <a href="pagHome.html">
+      <div class="card">
+        <div class="card-body" style="background-color:rgba(0, 0, 255, 0.295);">
+          <h5 class="card-title">Inicio</h5>
+        </div>
+      </div>
+    </a>
+    </div>
+
+
+
+
+<footer class="footerLogin">
+<!-- começo -->
+<center>
+<a href="https://twitter.com/IFBnoticias?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="external"><img src="imagens/redesSociais/twitterBranco.png" width="80px" alt="Twitter"></a>
+
+ <a href="https://www.instagram.com/ifbrasilia/" target="_blank" rel="external"><img src="imagens/redesSociais/instagramBranco.png" width="80px alt="Instagram"></a>
+
+ <a href="https://www.facebook.com/IFBrasilia/" target="_blank" rel="external"><img src="imagens/redesSociais/facebookBranco.png" width="80px alt="Facebook"></a>
+
+<a href="https://www.youtube.com/c/TVIFBrasilia" target="_blank" rel="external"><img src="imagens/redesSociais/youtubeBranco.png" width="80px alt="YouTube"></a>
+
+   <p>Copyrigth &copy;  2022 - IF Help</p>
+</center>
+</footer>
+
+  <!-- Link para biblioteca do Bootstrap via CDN (servidor remoto)-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
