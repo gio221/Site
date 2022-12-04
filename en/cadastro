@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" 
+  content="width=device-width, initial-scale=1.0">
+
+	<!--Link para CSS do Bootstrap-->
+	<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	 crossorigin="anonymous">
+
+	<link rel="stylesheet" 
+  href="styleIndex.css">
+	<link rel="shortcut icon" href="imagens/icon/logoIconBranca.png" type="image/x-icon">
+	<title>IF Help</title>
+  <style>
+   body{
+      background-image: url(imagens/fundo/fundo2.png);
+      background-attachment:fixed;
+      background-size:100%;
+      background-repeat:no-repeat;
+      
+    }
+    </style>
+</head>
+
+<body>
+
+	<!--Cabeçalho LOGIN-->
+	<nav class="navbar navbar-light">
+    
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="imagens/logos/logo.png" alt="logoVerde" width="123px" heigh="120px" class="d-inline-block align-text-top">
+    </a>
+  </div>
+  <!--Botão Alterar Idiomas-->
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false" >
+            <img src="imagens/portugues.png" width="40" alt="">
+          </button>
+          <ul style="background-color:;"class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button" ><a href="../en/index.html"><img
+                    src="imagens/ingles.png" width="40px" alt=""></a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="../es/index.html"><img src="imagens/espanhol.png" width="40px"
+                    alt=""></a></button></li>
+          </ul>
+        </div>
+
+</nav>
+
+<h1 id="titutoLogin">REGISTER</h1>
+
+<section class="containerCadastro">
+<div class="card_cadastro" style="">
+  <div class="card-body">
+    <h5 class="card-title">Name</h5>
+    <input class="inputLogin" type="text" placeholder="Digite login">
+     <h5 class="card-title">E-mail</h5>
+    <input class="inputLogin" type="text" placeholder="Digite login">
+    <h5 class="card-title">password</h5>
+    <input class="inputLogin" type="password" placeholder="Digite sua senha"><br/>
+    <a href="pagHome.html" class="btn btn-danger">Entrar</a>
+  </div>
+  <div class="recLogin">
+    
+
+</div>
+  
+</div>
+</section>
+
+
+<footer class="footerLogin">
+<!-- começo -->
+<center>
+<a href="https://twitter.com/IFBnoticias?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="external"><img src="imagens/redesSociais/twitterBranco.png" width="80px" alt="Twitter"></a>
+
+ <a href="https://www.instagram.com/ifbrasilia/" target="_blank" rel="external"><img src="imagens/redesSociais/instagramBranco.png" width="80px alt="Instagram"></a>
+
+ <a href="https://www.facebook.com/IFBrasilia/" target="_blank" rel="external"><img src="imagens/redesSociais/facebookBranco.png" width="80px alt="Facebook"></a>
+
+<a href="https://www.youtube.com/c/TVIFBrasilia" target="_blank" rel="external"><img src="imagens/redesSociais/youtubeBranco.png" width="80px alt="YouTube"></a>
+
+   <p>Copyrigth &copy;  2022 - IF Help</p>
+</center>
+</footer>
+
+
+  <!-- Link para biblioteca do Bootstrap via CDN (servidor remoto)-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+ 
+ </html>
